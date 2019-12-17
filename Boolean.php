@@ -2,7 +2,9 @@
 
 $bool = true; //boolean true or false
 
-$bool = 0; //convert number to bool
+$bool = 111; //convert number to bool
+$bool = ''; //convert number to bool
+$bool = 'hello world'; //convert number to bool
 
 var_dump((bool) $bool)
 
